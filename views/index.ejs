@@ -1,0 +1,19 @@
+<!-- welcome -->
+<h1>Welcome to <u><%= title %></u></h1>
+<p>
+    Just sit and have a nice talking.
+</p>
+
+<!-- chat -->
+<div id="container">
+    <ul></ul>
+    <form id="chat" method="post">
+        <input id="message" name="message" type="text" disabled="disabled" />
+        <input id="submit" type="submit" value="Send message" disabled="disabled" />
+    </form>
+</div>
+
+<!-- scripts -->
+<script type="text/javascript" src="faye.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript" src="javascripts/chat.js"></script>
